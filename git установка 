@@ -36,5 +36,6 @@ git branch -d some_branch - Удалить бранч (после мерджа)
 git branch -D some_branch - Просто удалить бранч (тупиковая ветвь)
 git show d8578edf8458ce06fbc5bb76a58c5ca4a58c5ca4 - Изменения, сделанные в заданном коммите
 git push origin :branch-name - Удалить бранч из репозитория на сервере
-git reset --hard d8578edf8458ce06fbc5bb76a58c5ca4a58c5ca4 - Откатиться к конкретному коммиту (хэш смотрим в «git log»)
+git reset --hard d8578edf8458ce06fbc5bb76a58c5ca4a58c5ca4 - Откатиться к конкретному коммиту и удалить последующие (хэш смотрим в «git log»)
+git push -f - залить на сервер измененные коммиты
 git clean -f - Удаление untracked files
