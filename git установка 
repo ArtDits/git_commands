@@ -9,3 +9,7 @@ git log --oneline - посмотреть все коммиты.
 git checkout . - восстановить все.
 git checkout "код коммита" - вернуть до состояния этого коммита.
 git checkout master - вернуться в ветку мастер.
+
+Восстановить файлы на локальном компьютере:
+git fetch --all
+git reset --hard origin/master или git reset --hard origin/<название_ветки>
